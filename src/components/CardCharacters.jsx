@@ -29,7 +29,7 @@ const CardCharacters = ({ character }) => {
     }, [page])
     if (loading) {
         return (
-            <img src="./public/Loading.png" alt="" />
+            <img src="../public/title.png" alt="" />
         )
     }
     return (
