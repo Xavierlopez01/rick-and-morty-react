@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <div >
-      <img src="./public/title.png" alt="" />
+      <img src="../public/title.png" alt="" />
       </div>
       
       <CardCharacters />
