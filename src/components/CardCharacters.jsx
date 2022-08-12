@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
-import image1 from "../../public/loading.png" 
 import Character from './Character'
 
 const NavPage = (props) => {
@@ -30,7 +29,7 @@ const CardCharacters = ({ character }) => {
     }, [page])
     if (loading) {
         return (
-            <img src={image1} alt="" />
+            <img src='./loading.png' alt="" />
         )
     }
     return (

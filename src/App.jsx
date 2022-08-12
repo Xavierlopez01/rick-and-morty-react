@@ -1,5 +1,4 @@
 import './App.css'
-import image from "../public/title.png"
 import CardCharacters from './components/CardCharacters'
 
 function App() {
@@ -8,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <div >
-      <img src={image} alt="" />
+      <img src='./title.png' alt="" />
       </div>
       
       <CardCharacters />
